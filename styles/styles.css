@@ -154,8 +154,7 @@
 	-o-transform-origin: 50% 0;
 	transform-origin: 50% 0;
 }
-.main-example .count.next {
-}
+
 .main-example .label {
 	font-size: normal;
 	margin-top: 5px;
@@ -361,7 +360,9 @@ input[type="radio"]:checked + .custom-radio-button {
 	margin-top: 20px;
 	text-align: center;
 	font-size: 16px;
+	color: rgb(50, 66, 116);
 }
+
 
 
 
@@ -394,3 +395,42 @@ input[type="radio"]:checked + .custom-radio-button {
 	background-color: #5ec462;
 }
 
+/* /////////////////////////////////////////////////////// */
+
+@media only screen 
+and (max-width : 768px){
+    /* Styles */
+	.container {
+		padding: 0px 30px;
+	}
+
+	.row_text {
+		padding: 10px;
+	}
+
+	.content {
+		padding: 15px 10px;
+	}
+
+	.table_buttons {
+		margin-top: 30px;
+	}
+
+	.container1 {
+		column-gap: 10px;
+		justify-content: space-evenly;
+		
+	}
+
+	.button_and_text{
+		font-size: 10px;
+	}
+
+	.last_button {
+		margin: 15px 50px;
+	}
+
+	.last_btn {
+		font-size: 20px;
+	}
+}
